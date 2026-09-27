@@ -1,0 +1,22 @@
+{
+  "flood": [
+    "avg_annual_rainfall_mm",
+    "elevation_m",
+    "drainage_capacity_index",
+    "impervious_surface_pct",
+    "population_density_per_km2",
+    "historical_flood_events_5yr"
+  ],
+  "heat": [
+    "avg_land_surface_temp_c",
+    "impervious_surface_pct",
+    "building_density_pct",
+    "green_cover_pct"
+  ],
+  "accessibility": [
+    "dist_to_hospital_km",
+    "dist_to_school_km",
+    "dist_to_emergency_service_km",
+    "road_accessibility_index"
+  ]
+}

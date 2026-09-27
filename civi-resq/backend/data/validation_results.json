@@ -1,0 +1,165 @@
+{
+  "observed_hit_rate_pct": 81.8,
+  "control_flag_rate_pct": 45.5,
+  "gap_percentage_points": 36.4,
+  "n_observed": 11,
+  "n_control": 11,
+  "observed_results": [
+    {
+      "zone_code": "GUN-001",
+      "zone_name": "Old Guntur / One Town",
+      "flood_score": 81.4,
+      "category": "critical",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-021",
+      "zone_name": "Bhavanipuram",
+      "flood_score": 29.2,
+      "category": "moderate",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "VIJ-025",
+      "zone_name": "Auto Nagar",
+      "flood_score": 53.7,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-026",
+      "zone_name": "Ajit Singh Nagar",
+      "flood_score": 71.0,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-027",
+      "zone_name": "Vidyadharapuram",
+      "flood_score": 70.8,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-028",
+      "zone_name": "Satyanarayanapuram",
+      "flood_score": 70.8,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-029",
+      "zone_name": "RR Nagar (RR Peta)",
+      "flood_score": 42.1,
+      "category": "moderate",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "VIJ-030",
+      "zone_name": "Krishna Lanka",
+      "flood_score": 59.0,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-031",
+      "zone_name": "Tadepalli",
+      "flood_score": 51.7,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-032",
+      "zone_name": "Eluru Road",
+      "flood_score": 69.9,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-033",
+      "zone_name": "Poly Clinic Road",
+      "flood_score": 79.4,
+      "category": "critical",
+      "flagged_high_risk": true
+    }
+  ],
+  "control_results": [
+    {
+      "zone_code": "GUN-002",
+      "zone_name": "Arundelpet",
+      "flood_score": 63.1,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "GUN-003",
+      "zone_name": "Lakshmipuram",
+      "flood_score": 71.5,
+      "category": "high",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "GUN-005",
+      "zone_name": "Brodipet",
+      "flood_score": 80.0,
+      "category": "critical",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "GUN-009",
+      "zone_name": "Gorantla",
+      "flood_score": 0.0,
+      "category": "low",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "GUN-013",
+      "zone_name": "Stambalagaruvu",
+      "flood_score": 91.5,
+      "category": "critical",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "GUN-015",
+      "zone_name": "NRI Layout",
+      "flood_score": 0.0,
+      "category": "low",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "GUN-017",
+      "zone_name": "Vidyanagar",
+      "flood_score": 46.3,
+      "category": "moderate",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "GUN-018",
+      "zone_name": "Guntur Medical College Area",
+      "flood_score": 22.2,
+      "category": "low",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "VIJ-020",
+      "zone_name": "Governorpet",
+      "flood_score": 80.1,
+      "category": "critical",
+      "flagged_high_risk": true
+    },
+    {
+      "zone_code": "VIJ-022",
+      "zone_name": "Patamata",
+      "flood_score": 13.9,
+      "category": "low",
+      "flagged_high_risk": false
+    },
+    {
+      "zone_code": "VIJ-023",
+      "zone_name": "Benz Circle",
+      "flood_score": 17.6,
+      "category": "low",
+      "flagged_high_risk": false
+    }
+  ]
+}

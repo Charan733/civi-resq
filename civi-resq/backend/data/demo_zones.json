@@ -1,0 +1,1491 @@
+{
+  "generated_at": "2026-09-15T07:01:34.351276",
+  "note": "Synthetic demo dataset grounded in real Guntur/Vijayawada geography & IMD monsoon averages. Replace with real ward shapefiles + municipal sensor/survey data for production use. Zones VIJ-027 through VIJ-033 added with real coordinates for locations independently reported as flooded in Sept 2024 news coverage -- see observed_events_source.py for citations. Their input PARAMETERS are still synthetic (same as the rest of the demo set); only their LOCATION and the fact that a real flood was reported there are grounded in real sources.",
+  "zones": [
+    {
+      "zone_code": "GUN-001",
+      "zone_name": "Old Guntur / One Town",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.39970008604178,
+          16.28081541438766
+        ],
+        [
+          80.40570008604178,
+          16.28081541438766
+        ],
+        [
+          80.40570008604178,
+          16.28681541438766
+        ],
+        [
+          80.39970008604178,
+          16.28681541438766
+        ],
+        [
+          80.39970008604178,
+          16.28081541438766
+        ]
+      ],
+      "centroid_lat": 16.283815,
+      "centroid_lng": 80.4027,
+      "avg_annual_rainfall_mm": 964.0,
+      "elevation_m": 16.2,
+      "drainage_capacity_index": 33.4,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 86.5,
+      "population_density_per_km2": 30491.0,
+      "road_accessibility_index": 32.2,
+      "green_cover_pct": 6.8,
+      "avg_land_surface_temp_c": 34.1,
+      "building_density_pct": 74.4,
+      "dist_to_hospital_km": 3.43,
+      "dist_to_school_km": 0.29,
+      "dist_to_emergency_service_km": 1.71,
+      "historical_flood_events_5yr": 5,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-002",
+      "zone_name": "Arundelpet",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.416214125471,
+          16.277463524976323
+        ],
+        [
+          80.422214125471,
+          16.277463524976323
+        ],
+        [
+          80.422214125471,
+          16.283463524976323
+        ],
+        [
+          80.416214125471,
+          16.283463524976323
+        ],
+        [
+          80.416214125471,
+          16.277463524976323
+        ]
+      ],
+      "centroid_lat": 16.280464,
+      "centroid_lng": 80.419214,
+      "avg_annual_rainfall_mm": 1050.0,
+      "elevation_m": 14.1,
+      "drainage_capacity_index": 35.1,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 86.9,
+      "population_density_per_km2": 22764.0,
+      "road_accessibility_index": 33.9,
+      "green_cover_pct": 11.6,
+      "avg_land_surface_temp_c": 35.7,
+      "building_density_pct": 71.9,
+      "dist_to_hospital_km": 0.9,
+      "dist_to_school_km": 3.0,
+      "dist_to_emergency_service_km": 4.38,
+      "historical_flood_events_5yr": 2,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-003",
+      "zone_name": "Lakshmipuram",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.42778982473163,
+          16.28153785429355
+        ],
+        [
+          80.43378982473163,
+          16.28153785429355
+        ],
+        [
+          80.43378982473163,
+          16.28753785429355
+        ],
+        [
+          80.42778982473163,
+          16.28753785429355
+        ],
+        [
+          80.42778982473163,
+          16.28153785429355
+        ]
+      ],
+      "centroid_lat": 16.284538,
+      "centroid_lng": 80.43079,
+      "avg_annual_rainfall_mm": 1076.0,
+      "elevation_m": 17.8,
+      "drainage_capacity_index": 28.8,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 89.1,
+      "population_density_per_km2": 26659.0,
+      "road_accessibility_index": 51.5,
+      "green_cover_pct": 8.2,
+      "avg_land_surface_temp_c": 37.5,
+      "building_density_pct": 70.9,
+      "dist_to_hospital_km": 1.71,
+      "dist_to_school_km": 1.15,
+      "dist_to_emergency_service_km": 0.93,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-004",
+      "zone_name": "Kothapet",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.4385410098003,
+          16.28263186933404
+        ],
+        [
+          80.4445410098003,
+          16.28263186933404
+        ],
+        [
+          80.4445410098003,
+          16.28863186933404
+        ],
+        [
+          80.4385410098003,
+          16.28863186933404
+        ],
+        [
+          80.4385410098003,
+          16.28263186933404
+        ]
+      ],
+      "centroid_lat": 16.285632,
+      "centroid_lng": 80.441541,
+      "avg_annual_rainfall_mm": 993.0,
+      "elevation_m": 22.3,
+      "drainage_capacity_index": 19.1,
+      "land_use_type": "mixed",
+      "impervious_surface_pct": 81.0,
+      "population_density_per_km2": 27382.0,
+      "road_accessibility_index": 47.5,
+      "green_cover_pct": 9.2,
+      "avg_land_surface_temp_c": 34.4,
+      "building_density_pct": 82.7,
+      "dist_to_hospital_km": 3.61,
+      "dist_to_school_km": 1.01,
+      "dist_to_emergency_service_km": 3.45,
+      "historical_flood_events_5yr": 4,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-005",
+      "zone_name": "Brodipet",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.45261999807883,
+          16.28361618680509
+        ],
+        [
+          80.45861999807883,
+          16.28361618680509
+        ],
+        [
+          80.45861999807883,
+          16.28961618680509
+        ],
+        [
+          80.45261999807883,
+          16.28961618680509
+        ],
+        [
+          80.45261999807883,
+          16.28361618680509
+        ]
+      ],
+      "centroid_lat": 16.286616,
+      "centroid_lng": 80.45562,
+      "avg_annual_rainfall_mm": 1009.0,
+      "elevation_m": 20.8,
+      "drainage_capacity_index": 36.1,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 88.2,
+      "population_density_per_km2": 21207.0,
+      "road_accessibility_index": 30.8,
+      "green_cover_pct": 5.8,
+      "avg_land_surface_temp_c": 35.3,
+      "building_density_pct": 74.2,
+      "dist_to_hospital_km": 6.15,
+      "dist_to_school_km": 3.09,
+      "dist_to_emergency_service_km": 2.48,
+      "historical_flood_events_5yr": 5,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-006",
+      "zone_name": "Nagarampalem",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.46681638071792,
+          16.278865055208485
+        ],
+        [
+          80.47281638071792,
+          16.278865055208485
+        ],
+        [
+          80.47281638071792,
+          16.284865055208485
+        ],
+        [
+          80.46681638071792,
+          16.284865055208485
+        ],
+        [
+          80.46681638071792,
+          16.278865055208485
+        ]
+      ],
+      "centroid_lat": 16.281865,
+      "centroid_lng": 80.469816,
+      "avg_annual_rainfall_mm": 993.0,
+      "elevation_m": 18.6,
+      "drainage_capacity_index": 34.9,
+      "land_use_type": "industrial",
+      "impervious_surface_pct": 80.1,
+      "population_density_per_km2": 4576.0,
+      "road_accessibility_index": 56.7,
+      "green_cover_pct": 7.4,
+      "avg_land_surface_temp_c": 38.0,
+      "building_density_pct": 59.4,
+      "dist_to_hospital_km": 6.48,
+      "dist_to_school_km": 1.88,
+      "dist_to_emergency_service_km": 1.0,
+      "historical_flood_events_5yr": 1,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-007",
+      "zone_name": "Pattabhipuram",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.40072273055478,
+          16.294588823277333
+        ],
+        [
+          80.40672273055478,
+          16.294588823277333
+        ],
+        [
+          80.40672273055478,
+          16.300588823277334
+        ],
+        [
+          80.40072273055478,
+          16.300588823277334
+        ],
+        [
+          80.40072273055478,
+          16.294588823277333
+        ]
+      ],
+      "centroid_lat": 16.297589,
+      "centroid_lng": 80.403723,
+      "avg_annual_rainfall_mm": 946.0,
+      "elevation_m": 27.5,
+      "drainage_capacity_index": 54.9,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 62.7,
+      "population_density_per_km2": 14363.0,
+      "road_accessibility_index": 61.7,
+      "green_cover_pct": 13.0,
+      "avg_land_surface_temp_c": 34.8,
+      "building_density_pct": 63.8,
+      "dist_to_hospital_km": 4.52,
+      "dist_to_school_km": 0.58,
+      "dist_to_emergency_service_km": 6.24,
+      "historical_flood_events_5yr": 2,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-008",
+      "zone_name": "Naaz Center",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.41422140378424,
+          16.293848789861258
+        ],
+        [
+          80.42022140378424,
+          16.293848789861258
+        ],
+        [
+          80.42022140378424,
+          16.299848789861258
+        ],
+        [
+          80.41422140378424,
+          16.299848789861258
+        ],
+        [
+          80.41422140378424,
+          16.293848789861258
+        ]
+      ],
+      "centroid_lat": 16.296849,
+      "centroid_lng": 80.417221,
+      "avg_annual_rainfall_mm": 967.0,
+      "elevation_m": 15.6,
+      "drainage_capacity_index": 15.1,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 87.3,
+      "population_density_per_km2": 28076.0,
+      "road_accessibility_index": 54.3,
+      "green_cover_pct": 9.9,
+      "avg_land_surface_temp_c": 36.5,
+      "building_density_pct": 72.1,
+      "dist_to_hospital_km": 4.18,
+      "dist_to_school_km": 2.98,
+      "dist_to_emergency_service_km": 3.75,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-009",
+      "zone_name": "Gorantla",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.4296000864006,
+          16.288922714148395
+        ],
+        [
+          80.4356000864006,
+          16.288922714148395
+        ],
+        [
+          80.4356000864006,
+          16.294922714148395
+        ],
+        [
+          80.4296000864006,
+          16.294922714148395
+        ],
+        [
+          80.4296000864006,
+          16.288922714148395
+        ]
+      ],
+      "centroid_lat": 16.291923,
+      "centroid_lng": 80.4326,
+      "avg_annual_rainfall_mm": 1006.0,
+      "elevation_m": 40.6,
+      "drainage_capacity_index": 67.2,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 35.0,
+      "population_density_per_km2": 3959.0,
+      "road_accessibility_index": 60.5,
+      "green_cover_pct": 27.1,
+      "avg_land_surface_temp_c": 34.4,
+      "building_density_pct": 41.6,
+      "dist_to_hospital_km": 2.21,
+      "dist_to_school_km": 0.39,
+      "dist_to_emergency_service_km": 6.19,
+      "historical_flood_events_5yr": 0,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-010",
+      "zone_name": "Etukuru Road",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.43938792370653,
+          16.28838522761654
+        ],
+        [
+          80.44538792370653,
+          16.28838522761654
+        ],
+        [
+          80.44538792370653,
+          16.29438522761654
+        ],
+        [
+          80.43938792370653,
+          16.29438522761654
+        ],
+        [
+          80.43938792370653,
+          16.28838522761654
+        ]
+      ],
+      "centroid_lat": 16.291385,
+      "centroid_lng": 80.442388,
+      "avg_annual_rainfall_mm": 931.0,
+      "elevation_m": 28.6,
+      "drainage_capacity_index": 59.1,
+      "land_use_type": "mixed",
+      "impervious_surface_pct": 57.6,
+      "population_density_per_km2": 13278.0,
+      "road_accessibility_index": 63.7,
+      "green_cover_pct": 13.2,
+      "avg_land_surface_temp_c": 36.4,
+      "building_density_pct": 53.5,
+      "dist_to_hospital_km": 1.61,
+      "dist_to_school_km": 1.98,
+      "dist_to_emergency_service_km": 5.22,
+      "historical_flood_events_5yr": 1,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-011",
+      "zone_name": "Chuttugunta",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.45069193839997,
+          16.293403591782553
+        ],
+        [
+          80.45669193839997,
+          16.293403591782553
+        ],
+        [
+          80.45669193839997,
+          16.299403591782553
+        ],
+        [
+          80.45069193839997,
+          16.299403591782553
+        ],
+        [
+          80.45069193839997,
+          16.293403591782553
+        ]
+      ],
+      "centroid_lat": 16.296404,
+      "centroid_lng": 80.453692,
+      "avg_annual_rainfall_mm": 1027.0,
+      "elevation_m": 23.2,
+      "drainage_capacity_index": 62.5,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 64.0,
+      "population_density_per_km2": 11231.0,
+      "road_accessibility_index": 51.6,
+      "green_cover_pct": 10.3,
+      "avg_land_surface_temp_c": 34.8,
+      "building_density_pct": 56.8,
+      "dist_to_hospital_km": 0.34,
+      "dist_to_school_km": 2.54,
+      "dist_to_emergency_service_km": 0.79,
+      "historical_flood_events_5yr": 0,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-012",
+      "zone_name": "Syamala Nagar",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.46637708320203,
+          16.294943360104046
+        ],
+        [
+          80.47237708320203,
+          16.294943360104046
+        ],
+        [
+          80.47237708320203,
+          16.300943360104046
+        ],
+        [
+          80.46637708320203,
+          16.300943360104046
+        ],
+        [
+          80.46637708320203,
+          16.294943360104046
+        ]
+      ],
+      "centroid_lat": 16.297943,
+      "centroid_lng": 80.469377,
+      "avg_annual_rainfall_mm": 931.0,
+      "elevation_m": 21.3,
+      "drainage_capacity_index": 56.7,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 59.3,
+      "population_density_per_km2": 10191.0,
+      "road_accessibility_index": 73.4,
+      "green_cover_pct": 16.9,
+      "avg_land_surface_temp_c": 34.4,
+      "building_density_pct": 60.7,
+      "dist_to_hospital_km": 5.31,
+      "dist_to_school_km": 0.83,
+      "dist_to_emergency_service_km": 1.04,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-013",
+      "zone_name": "Stambalagaruvu",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.40278881820839,
+          16.302534380532716
+        ],
+        [
+          80.4087888182084,
+          16.302534380532716
+        ],
+        [
+          80.4087888182084,
+          16.308534380532716
+        ],
+        [
+          80.40278881820839,
+          16.308534380532716
+        ],
+        [
+          80.40278881820839,
+          16.302534380532716
+        ]
+      ],
+      "centroid_lat": 16.305534,
+      "centroid_lng": 80.405789,
+      "avg_annual_rainfall_mm": 1058.0,
+      "elevation_m": 12.4,
+      "drainage_capacity_index": 23.1,
+      "land_use_type": "slum",
+      "impervious_surface_pct": 79.7,
+      "population_density_per_km2": 21091.0,
+      "road_accessibility_index": 34.6,
+      "green_cover_pct": 6.8,
+      "avg_land_surface_temp_c": 34.5,
+      "building_density_pct": 68.8,
+      "dist_to_hospital_km": 3.62,
+      "dist_to_school_km": 0.66,
+      "dist_to_emergency_service_km": 1.61,
+      "historical_flood_events_5yr": 6,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-014",
+      "zone_name": "Kaikaluru Colony",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.4188861247942,
+          16.301698451583057
+        ],
+        [
+          80.4248861247942,
+          16.301698451583057
+        ],
+        [
+          80.4248861247942,
+          16.307698451583057
+        ],
+        [
+          80.4188861247942,
+          16.307698451583057
+        ],
+        [
+          80.4188861247942,
+          16.301698451583057
+        ]
+      ],
+      "centroid_lat": 16.304698,
+      "centroid_lng": 80.421886,
+      "avg_annual_rainfall_mm": 991.0,
+      "elevation_m": 42.2,
+      "drainage_capacity_index": 67.7,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 36.0,
+      "population_density_per_km2": 6997.0,
+      "road_accessibility_index": 80.9,
+      "green_cover_pct": 27.6,
+      "avg_land_surface_temp_c": 34.6,
+      "building_density_pct": 42.0,
+      "dist_to_hospital_km": 1.33,
+      "dist_to_school_km": 1.8,
+      "dist_to_emergency_service_km": 1.81,
+      "historical_flood_events_5yr": 1,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-015",
+      "zone_name": "NRI Layout",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.42481709697121,
+          16.306919542924085
+        ],
+        [
+          80.43081709697121,
+          16.306919542924085
+        ],
+        [
+          80.43081709697121,
+          16.312919542924085
+        ],
+        [
+          80.42481709697121,
+          16.312919542924085
+        ],
+        [
+          80.42481709697121,
+          16.306919542924085
+        ]
+      ],
+      "centroid_lat": 16.30992,
+      "centroid_lng": 80.427817,
+      "avg_annual_rainfall_mm": 920.0,
+      "elevation_m": 36.6,
+      "drainage_capacity_index": 86.3,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 40.7,
+      "population_density_per_km2": 2713.0,
+      "road_accessibility_index": 82.4,
+      "green_cover_pct": 40.4,
+      "avg_land_surface_temp_c": 31.9,
+      "building_density_pct": 29.3,
+      "dist_to_hospital_km": 3.32,
+      "dist_to_school_km": 0.83,
+      "dist_to_emergency_service_km": 1.84,
+      "historical_flood_events_5yr": 0,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-016",
+      "zone_name": "Pothinamallayapalem",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.43983756161099,
+          16.30433344232653
+        ],
+        [
+          80.44583756161099,
+          16.30433344232653
+        ],
+        [
+          80.44583756161099,
+          16.31033344232653
+        ],
+        [
+          80.43983756161099,
+          16.31033344232653
+        ],
+        [
+          80.43983756161099,
+          16.30433344232653
+        ]
+      ],
+      "centroid_lat": 16.307333,
+      "centroid_lng": 80.442838,
+      "avg_annual_rainfall_mm": 1040.0,
+      "elevation_m": 29.3,
+      "drainage_capacity_index": 78.4,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 35.1,
+      "population_density_per_km2": 4529.0,
+      "road_accessibility_index": 68.9,
+      "green_cover_pct": 44.3,
+      "avg_land_surface_temp_c": 28.4,
+      "building_density_pct": 21.2,
+      "dist_to_hospital_km": 3.99,
+      "dist_to_school_km": 2.43,
+      "dist_to_emergency_service_km": 1.95,
+      "historical_flood_events_5yr": 0,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-017",
+      "zone_name": "Vidyanagar",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.4520574032811,
+          16.307232769017833
+        ],
+        [
+          80.4580574032811,
+          16.307232769017833
+        ],
+        [
+          80.4580574032811,
+          16.313232769017834
+        ],
+        [
+          80.4520574032811,
+          16.313232769017834
+        ],
+        [
+          80.4520574032811,
+          16.307232769017833
+        ]
+      ],
+      "centroid_lat": 16.310233,
+      "centroid_lng": 80.455057,
+      "avg_annual_rainfall_mm": 1013.0,
+      "elevation_m": 18.6,
+      "drainage_capacity_index": 42.0,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 68.1,
+      "population_density_per_km2": 14087.0,
+      "road_accessibility_index": 57.9,
+      "green_cover_pct": 13.1,
+      "avg_land_surface_temp_c": 35.3,
+      "building_density_pct": 51.3,
+      "dist_to_hospital_km": 1.95,
+      "dist_to_school_km": 0.63,
+      "dist_to_emergency_service_km": 4.66,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "GUN-018",
+      "zone_name": "Guntur Medical College Area",
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.46551491593931,
+          16.302229417570175
+        ],
+        [
+          80.47151491593931,
+          16.302229417570175
+        ],
+        [
+          80.47151491593931,
+          16.308229417570175
+        ],
+        [
+          80.46551491593931,
+          16.308229417570175
+        ],
+        [
+          80.46551491593931,
+          16.302229417570175
+        ]
+      ],
+      "centroid_lat": 16.305229,
+      "centroid_lng": 80.468515,
+      "avg_annual_rainfall_mm": 932.0,
+      "elevation_m": 24.4,
+      "drainage_capacity_index": 65.0,
+      "land_use_type": "institutional",
+      "impervious_surface_pct": 74.9,
+      "population_density_per_km2": 9659.0,
+      "road_accessibility_index": 55.3,
+      "green_cover_pct": 13.2,
+      "avg_land_surface_temp_c": 36.7,
+      "building_density_pct": 62.6,
+      "dist_to_hospital_km": 5.75,
+      "dist_to_school_km": 1.42,
+      "dist_to_emergency_service_km": 1.44,
+      "historical_flood_events_5yr": 2,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-019",
+      "zone_name": "Machavaram",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.61889786450905,
+          16.516093422125806
+        ],
+        [
+          80.62489786450905,
+          16.516093422125806
+        ],
+        [
+          80.62489786450905,
+          16.522093422125806
+        ],
+        [
+          80.61889786450905,
+          16.522093422125806
+        ],
+        [
+          80.61889786450905,
+          16.516093422125806
+        ]
+      ],
+      "centroid_lat": 16.519093,
+      "centroid_lng": 80.621898,
+      "avg_annual_rainfall_mm": 1025.0,
+      "elevation_m": 14.1,
+      "drainage_capacity_index": 35.4,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 80.1,
+      "population_density_per_km2": 27287.0,
+      "road_accessibility_index": 53.5,
+      "green_cover_pct": 4.2,
+      "avg_land_surface_temp_c": 34.6,
+      "building_density_pct": 72.1,
+      "dist_to_hospital_km": 3.73,
+      "dist_to_school_km": 1.1,
+      "dist_to_emergency_service_km": 4.39,
+      "historical_flood_events_5yr": 4,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-020",
+      "zone_name": "Governorpet",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.62807390367108,
+          16.51282877849862
+        ],
+        [
+          80.63407390367108,
+          16.51282877849862
+        ],
+        [
+          80.63407390367108,
+          16.51882877849862
+        ],
+        [
+          80.62807390367108,
+          16.51882877849862
+        ],
+        [
+          80.62807390367108,
+          16.51282877849862
+        ]
+      ],
+      "centroid_lat": 16.515829,
+      "centroid_lng": 80.631074,
+      "avg_annual_rainfall_mm": 962.0,
+      "elevation_m": 18.9,
+      "drainage_capacity_index": 37.6,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 89.4,
+      "population_density_per_km2": 19292.0,
+      "road_accessibility_index": 40.6,
+      "green_cover_pct": 5.5,
+      "avg_land_surface_temp_c": 34.0,
+      "building_density_pct": 85.4,
+      "dist_to_hospital_km": 4.25,
+      "dist_to_school_km": 1.06,
+      "dist_to_emergency_service_km": 5.29,
+      "historical_flood_events_5yr": 5,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-021",
+      "zone_name": "Bhavanipuram",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.63589499104471,
+          16.5156872549182
+        ],
+        [
+          80.64189499104471,
+          16.5156872549182
+        ],
+        [
+          80.64189499104471,
+          16.5216872549182
+        ],
+        [
+          80.63589499104471,
+          16.5216872549182
+        ],
+        [
+          80.63589499104471,
+          16.5156872549182
+        ]
+      ],
+      "centroid_lat": 16.518687,
+      "centroid_lng": 80.638895,
+      "avg_annual_rainfall_mm": 1071.0,
+      "elevation_m": 27.7,
+      "drainage_capacity_index": 43.7,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 55.7,
+      "population_density_per_km2": 12323.0,
+      "road_accessibility_index": 63.8,
+      "green_cover_pct": 15.2,
+      "avg_land_surface_temp_c": 32.2,
+      "building_density_pct": 52.3,
+      "dist_to_hospital_km": 6.09,
+      "dist_to_school_km": 3.41,
+      "dist_to_emergency_service_km": 0.66,
+      "historical_flood_events_5yr": 2,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-022",
+      "zone_name": "Patamata",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.64899623791378,
+          16.512880612306716
+        ],
+        [
+          80.65499623791378,
+          16.512880612306716
+        ],
+        [
+          80.65499623791378,
+          16.518880612306717
+        ],
+        [
+          80.64899623791378,
+          16.518880612306717
+        ],
+        [
+          80.64899623791378,
+          16.512880612306716
+        ]
+      ],
+      "centroid_lat": 16.515881,
+      "centroid_lng": 80.651996,
+      "avg_annual_rainfall_mm": 936.0,
+      "elevation_m": 28.9,
+      "drainage_capacity_index": 62.1,
+      "land_use_type": "mixed",
+      "impervious_surface_pct": 63.1,
+      "population_density_per_km2": 14586.0,
+      "road_accessibility_index": 53.9,
+      "green_cover_pct": 21.2,
+      "avg_land_surface_temp_c": 36.3,
+      "building_density_pct": 64.5,
+      "dist_to_hospital_km": 5.33,
+      "dist_to_school_km": 3.11,
+      "dist_to_emergency_service_km": 0.56,
+      "historical_flood_events_5yr": 2,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-023",
+      "zone_name": "Benz Circle",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.6622937053324,
+          16.51745909196918
+        ],
+        [
+          80.6682937053324,
+          16.51745909196918
+        ],
+        [
+          80.6682937053324,
+          16.52345909196918
+        ],
+        [
+          80.6622937053324,
+          16.52345909196918
+        ],
+        [
+          80.6622937053324,
+          16.51745909196918
+        ]
+      ],
+      "centroid_lat": 16.520459,
+      "centroid_lng": 80.665294,
+      "avg_annual_rainfall_mm": 1027.0,
+      "elevation_m": 28.3,
+      "drainage_capacity_index": 46.2,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 58.2,
+      "population_density_per_km2": 15312.0,
+      "road_accessibility_index": 59.6,
+      "green_cover_pct": 10.5,
+      "avg_land_surface_temp_c": 34.4,
+      "building_density_pct": 49.0,
+      "dist_to_hospital_km": 5.99,
+      "dist_to_school_km": 1.35,
+      "dist_to_emergency_service_km": 5.82,
+      "historical_flood_events_5yr": 1,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-024",
+      "zone_name": "Poranki",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.67628026546198,
+          16.512983388377645
+        ],
+        [
+          80.68228026546198,
+          16.512983388377645
+        ],
+        [
+          80.68228026546198,
+          16.518983388377645
+        ],
+        [
+          80.67628026546198,
+          16.518983388377645
+        ],
+        [
+          80.67628026546198,
+          16.512983388377645
+        ]
+      ],
+      "centroid_lat": 16.515983,
+      "centroid_lng": 80.67928,
+      "avg_annual_rainfall_mm": 984.0,
+      "elevation_m": 34.1,
+      "drainage_capacity_index": 66.6,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 40.5,
+      "population_density_per_km2": 2924.0,
+      "road_accessibility_index": 77.7,
+      "green_cover_pct": 39.6,
+      "avg_land_surface_temp_c": 32.2,
+      "building_density_pct": 23.6,
+      "dist_to_hospital_km": 0.47,
+      "dist_to_school_km": 3.09,
+      "dist_to_emergency_service_km": 2.12,
+      "historical_flood_events_5yr": 1,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-025",
+      "zone_name": "Auto Nagar",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.6157725700399,
+          16.523506057578828
+        ],
+        [
+          80.6217725700399,
+          16.523506057578828
+        ],
+        [
+          80.6217725700399,
+          16.52950605757883
+        ],
+        [
+          80.6157725700399,
+          16.52950605757883
+        ],
+        [
+          80.6157725700399,
+          16.523506057578828
+        ]
+      ],
+      "centroid_lat": 16.526506,
+      "centroid_lng": 80.618773,
+      "avg_annual_rainfall_mm": 975.0,
+      "elevation_m": 23.9,
+      "drainage_capacity_index": 38.7,
+      "land_use_type": "industrial",
+      "impervious_surface_pct": 87.7,
+      "population_density_per_km2": 3694.0,
+      "road_accessibility_index": 63.0,
+      "green_cover_pct": 3.1,
+      "avg_land_surface_temp_c": 36.2,
+      "building_density_pct": 63.7,
+      "dist_to_hospital_km": 3.52,
+      "dist_to_school_km": 2.86,
+      "dist_to_emergency_service_km": 4.93,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-026",
+      "zone_name": "Ajit Singh Nagar",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.62457628103282,
+          16.529096301547924
+        ],
+        [
+          80.63057628103282,
+          16.529096301547924
+        ],
+        [
+          80.63057628103282,
+          16.535096301547924
+        ],
+        [
+          80.62457628103282,
+          16.535096301547924
+        ],
+        [
+          80.62457628103282,
+          16.529096301547924
+        ]
+      ],
+      "centroid_lat": 16.532096,
+      "centroid_lng": 80.627576,
+      "avg_annual_rainfall_mm": 989.0,
+      "elevation_m": 19.6,
+      "drainage_capacity_index": 28.4,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 79.3,
+      "population_density_per_km2": 31941.0,
+      "road_accessibility_index": 22.5,
+      "green_cover_pct": 7.4,
+      "avg_land_surface_temp_c": 36.5,
+      "building_density_pct": 78.3,
+      "dist_to_hospital_km": 2.32,
+      "dist_to_school_km": 2.5,
+      "dist_to_emergency_service_km": 4.06,
+      "historical_flood_events_5yr": 4,
+      "data_source": "demo_synthetic"
+    },
+    {
+      "zone_code": "VIJ-027",
+      "zone_name": "Vidyadharapuram",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.6325,
+          16.5105
+        ],
+        [
+          80.6385,
+          16.5105
+        ],
+        [
+          80.6385,
+          16.5165
+        ],
+        [
+          80.6325,
+          16.5165
+        ],
+        [
+          80.6325,
+          16.5105
+        ]
+      ],
+      "centroid_lat": 16.5135,
+      "centroid_lng": 80.6355,
+      "avg_annual_rainfall_mm": 985.0,
+      "elevation_m": 16.0,
+      "drainage_capacity_index": 19.5,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 79.2,
+      "population_density_per_km2": 28638.0,
+      "road_accessibility_index": 36.3,
+      "green_cover_pct": 6.4,
+      "avg_land_surface_temp_c": 37.4,
+      "building_density_pct": 80.8,
+      "dist_to_hospital_km": 6.12,
+      "dist_to_school_km": 1.81,
+      "dist_to_emergency_service_km": 3.18,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic_params_real_location"
+    },
+    {
+      "zone_code": "VIJ-028",
+      "zone_name": "Satyanarayanapuram",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.6325,
+          16.532
+        ],
+        [
+          80.6385,
+          16.532
+        ],
+        [
+          80.6385,
+          16.538
+        ],
+        [
+          80.6325,
+          16.538
+        ],
+        [
+          80.6325,
+          16.532
+        ]
+      ],
+      "centroid_lat": 16.535,
+      "centroid_lng": 80.6355,
+      "avg_annual_rainfall_mm": 1047.0,
+      "elevation_m": 21.9,
+      "drainage_capacity_index": 35.6,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 89.6,
+      "population_density_per_km2": 20976.0,
+      "road_accessibility_index": 41.5,
+      "green_cover_pct": 4.6,
+      "avg_land_surface_temp_c": 36.8,
+      "building_density_pct": 71.7,
+      "dist_to_hospital_km": 4.74,
+      "dist_to_school_km": 2.44,
+      "dist_to_emergency_service_km": 0.98,
+      "historical_flood_events_5yr": 4,
+      "data_source": "demo_synthetic_params_real_location"
+    },
+    {
+      "zone_code": "VIJ-029",
+      "zone_name": "RR Nagar (RR Peta)",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.629,
+          16.525
+        ],
+        [
+          80.635,
+          16.525
+        ],
+        [
+          80.635,
+          16.531
+        ],
+        [
+          80.629,
+          16.531
+        ],
+        [
+          80.629,
+          16.525
+        ]
+      ],
+      "centroid_lat": 16.528,
+      "centroid_lng": 80.632,
+      "avg_annual_rainfall_mm": 984.0,
+      "elevation_m": 21.8,
+      "drainage_capacity_index": 40.2,
+      "land_use_type": "mixed",
+      "impervious_surface_pct": 59.1,
+      "population_density_per_km2": 17906.0,
+      "road_accessibility_index": 63.4,
+      "green_cover_pct": 15.5,
+      "avg_land_surface_temp_c": 36.5,
+      "building_density_pct": 57.1,
+      "dist_to_hospital_km": 6.36,
+      "dist_to_school_km": 1.38,
+      "dist_to_emergency_service_km": 1.82,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic_params_real_location"
+    },
+    {
+      "zone_code": "VIJ-030",
+      "zone_name": "Krishna Lanka",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.614,
+          16.505
+        ],
+        [
+          80.62,
+          16.505
+        ],
+        [
+          80.62,
+          16.511
+        ],
+        [
+          80.614,
+          16.511
+        ],
+        [
+          80.614,
+          16.505
+        ]
+      ],
+      "centroid_lat": 16.508,
+      "centroid_lng": 80.617,
+      "avg_annual_rainfall_mm": 1040.0,
+      "elevation_m": 18.4,
+      "drainage_capacity_index": 38.1,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 78.0,
+      "population_density_per_km2": 25045.0,
+      "road_accessibility_index": 34.4,
+      "green_cover_pct": 4.0,
+      "avg_land_surface_temp_c": 34.9,
+      "building_density_pct": 83.7,
+      "dist_to_hospital_km": 2.9,
+      "dist_to_school_km": 3.29,
+      "dist_to_emergency_service_km": 4.57,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic_params_real_location"
+    },
+    {
+      "zone_code": "VIJ-031",
+      "zone_name": "Tadepalli",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.6178,
+          16.6003
+        ],
+        [
+          80.6238,
+          16.6003
+        ],
+        [
+          80.6238,
+          16.6063
+        ],
+        [
+          80.6178,
+          16.6063
+        ],
+        [
+          80.6178,
+          16.6003
+        ]
+      ],
+      "centroid_lat": 16.6033,
+      "centroid_lng": 80.6208,
+      "avg_annual_rainfall_mm": 970.0,
+      "elevation_m": 18.1,
+      "drainage_capacity_index": 48.2,
+      "land_use_type": "residential",
+      "impervious_surface_pct": 65.5,
+      "population_density_per_km2": 10807.0,
+      "road_accessibility_index": 69.7,
+      "green_cover_pct": 10.7,
+      "avg_land_surface_temp_c": 33.1,
+      "building_density_pct": 50.2,
+      "dist_to_hospital_km": 2.81,
+      "dist_to_school_km": 2.72,
+      "dist_to_emergency_service_km": 2.74,
+      "historical_flood_events_5yr": 5,
+      "data_source": "demo_synthetic_params_real_location"
+    },
+    {
+      "zone_code": "VIJ-032",
+      "zone_name": "Eluru Road",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.63,
+          16.509
+        ],
+        [
+          80.636,
+          16.509
+        ],
+        [
+          80.636,
+          16.515
+        ],
+        [
+          80.63,
+          16.515
+        ],
+        [
+          80.63,
+          16.509
+        ]
+      ],
+      "centroid_lat": 16.512,
+      "centroid_lng": 80.633,
+      "avg_annual_rainfall_mm": 1068.0,
+      "elevation_m": 15.3,
+      "drainage_capacity_index": 36.6,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 85.2,
+      "population_density_per_km2": 28461.0,
+      "road_accessibility_index": 45.2,
+      "green_cover_pct": 6.7,
+      "avg_land_surface_temp_c": 34.5,
+      "building_density_pct": 72.9,
+      "dist_to_hospital_km": 1.38,
+      "dist_to_school_km": 0.79,
+      "dist_to_emergency_service_km": 1.36,
+      "historical_flood_events_5yr": 3,
+      "data_source": "demo_synthetic_params_real_location"
+    },
+    {
+      "zone_code": "VIJ-033",
+      "zone_name": "Poly Clinic Road",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "geometry": [
+        [
+          80.631,
+          16.51
+        ],
+        [
+          80.637,
+          16.51
+        ],
+        [
+          80.637,
+          16.516000000000002
+        ],
+        [
+          80.631,
+          16.516000000000002
+        ],
+        [
+          80.631,
+          16.51
+        ]
+      ],
+      "centroid_lat": 16.513,
+      "centroid_lng": 80.634,
+      "avg_annual_rainfall_mm": 1061.0,
+      "elevation_m": 17.2,
+      "drainage_capacity_index": 27.5,
+      "land_use_type": "commercial",
+      "impervious_surface_pct": 79.0,
+      "population_density_per_km2": 21606.0,
+      "road_accessibility_index": 51.4,
+      "green_cover_pct": 6.3,
+      "avg_land_surface_temp_c": 37.4,
+      "building_density_pct": 80.0,
+      "dist_to_hospital_km": 0.37,
+      "dist_to_school_km": 2.95,
+      "dist_to_emergency_service_km": 2.63,
+      "historical_flood_events_5yr": 5,
+      "data_source": "demo_synthetic_params_real_location"
+    }
+  ]
+}

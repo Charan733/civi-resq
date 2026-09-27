@@ -1,0 +1,93 @@
+{
+  "description": "Real, independently reported waterlogging/flood events for Guntur & Vijayawada, used for external validation (NOT used in model training).",
+  "events": [
+    {
+      "zone_code": "VIJ-021",
+      "zone_name": "Bhavanipuram",
+      "event_date": "2024-09-01",
+      "event_type": "flood",
+      "description": "Reported flooded during Sept 2024 Vijayawada floods.",
+      "source": "ETV Bharat, Sep 1 2024"
+    },
+    {
+      "zone_code": "VIJ-025",
+      "zone_name": "Auto Nagar",
+      "event_date": "2024-08-31",
+      "event_type": "waterlogging",
+      "description": "Areas surrounding Autonagar flooded during heavy rain.",
+      "source": "countryandpolitics.in, Aug 31 2024"
+    },
+    {
+      "zone_code": "VIJ-026",
+      "zone_name": "Ajit Singh Nagar",
+      "event_date": "2024-09-08",
+      "event_type": "flood",
+      "description": "Flood water inundation photographed/reported; area near Vijayawada North mandal HQ, among worst-hit in the 2024 floods.",
+      "source": "Wikipedia, '2024 Vijayawada floods'"
+    },
+    {
+      "zone_code": "GUN-001",
+      "zone_name": "Old Guntur / One Town",
+      "event_date": "2024-recurring",
+      "event_type": "chronic_drainage_failure",
+      "description": "Chronically clogged open drains; GMC ran a dedicated desilting operation across Old Guntur.",
+      "source": "suryaa.com, GMC drainage report"
+    },
+    {
+      "zone_code": "VIJ-027",
+      "zone_name": "Vidyadharapuram",
+      "event_date": "2024-08-31",
+      "event_type": "waterlogging",
+      "description": "Roads turned into ponds; severe waterlogged-road problems reported.",
+      "source": "countryandpolitics.in, Aug 31 2024"
+    },
+    {
+      "zone_code": "VIJ-028",
+      "zone_name": "Satyanarayanapuram",
+      "event_date": "2024-09-01",
+      "event_type": "flood",
+      "description": "Reported flooded during Sept 2024 Vijayawada floods.",
+      "source": "ETV Bharat, Sep 1 2024"
+    },
+    {
+      "zone_code": "VIJ-029",
+      "zone_name": "RR Nagar (RR Peta)",
+      "event_date": "2024-08-31",
+      "event_type": "waterlogging",
+      "description": "Severe waterlogged-road problems during heavy rain.",
+      "source": "countryandpolitics.in, Aug 31 2024"
+    },
+    {
+      "zone_code": "VIJ-030",
+      "zone_name": "Krishna Lanka",
+      "event_date": "2024-09-02",
+      "event_type": "flood",
+      "description": "Residents evacuated as water levels near retaining wall rose to historic highs during Prakasam Barrage high-inflow event.",
+      "source": "All India Radio (newsonair.gov.in), Sep 2 2024"
+    },
+    {
+      "zone_code": "VIJ-031",
+      "zone_name": "Tadepalli",
+      "event_date": "2024-09-02",
+      "event_type": "flood",
+      "description": "Residents near the Krishna riverbank evacuated during historic-high water inflow at Prakasam Barrage.",
+      "source": "All India Radio (newsonair.gov.in), Sep 2 2024"
+    },
+    {
+      "zone_code": "VIJ-032",
+      "zone_name": "Eluru Road",
+      "event_date": "2024-09-01",
+      "event_type": "flood",
+      "description": "Reported flooded during Sept 2024 Vijayawada floods.",
+      "source": "ETV Bharat, Sep 1 2024"
+    },
+    {
+      "zone_code": "VIJ-033",
+      "zone_name": "Poly Clinic Road",
+      "event_date": "2024-09-01",
+      "event_type": "flood",
+      "description": "Reported flooded during Sept 2024 Vijayawada floods.",
+      "source": "ETV Bharat, Sep 1 2024"
+    }
+  ]
+}

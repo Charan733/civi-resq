@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Env files (never commit secrets)
+.env
+!.env.example
+
+# ML artifacts (regenerate via ml/train_models.py, or keep if you want them versioned)
+backend/ml/trained_models/*.joblib
+
+# OS/editor
+.DS_Store
+.vscode/
+*.log

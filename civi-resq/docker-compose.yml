@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: civiresq_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: civiresq
+      POSTGRES_PASSWORD: civiresq_pass
+      POSTGRES_DB: civiresq_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - civiresq_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U civiresq -d civiresq_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  civiresq_pgdata:

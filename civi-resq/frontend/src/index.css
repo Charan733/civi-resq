@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-paper text-ink-800 font-body antialiased;
+}
+
+/* Engineering "survey stamp" badge — signature element for risk categories */
+.risk-stamp {
+  @apply inline-flex items-center justify-center gap-1.5 rounded-full border-2 px-3 py-1
+         font-mono text-xs font-semibold uppercase tracking-wider;
+  border-style: double;
+}
+.risk-stamp-low { @apply text-risk-low border-risk-low bg-risk-low/10; }
+.risk-stamp-moderate { @apply text-risk-moderate border-risk-moderate bg-risk-moderate/10; }
+.risk-stamp-high { @apply text-risk-high border-risk-high bg-risk-high/10; }
+.risk-stamp-critical { @apply text-risk-critical border-risk-critical bg-risk-critical/10; }
+
+.leaflet-container {
+  font-family: 'Inter', sans-serif;
+  background: #DCE4E7;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #B7C7CE; border-radius: 4px; }
